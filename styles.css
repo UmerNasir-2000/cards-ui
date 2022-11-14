@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;600;900&family=Zilla+Slab:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+html {
+  font-family: "Krub", sans-serif;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  margin: 15px auto;
+  width: 350px;
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 4px 4px 10px rgba(68, 68, 68, 0.5);
+  border-radius: 2px;
+}
+
+.card__header h1 {
+  font-family: "Zilla Slab", serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #292b2e;
+  word-wrap: break-word;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.card__header {
+  margin-bottom: 60px;
+}
+
+.card__header p {
+  color: #837f7f;
+}
+
+.card__body p:first-child {
+  background-color: rgb(167, 226, 255);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(30, 30, 30);
+  font-size: 40px;
+  box-sizing: content-box;
+  margin: -40px;
+}
+
+#title {
+  color: #837f7f;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card__list {
+  list-style-image: url("/tick.png");
+  margin-bottom: 25px;
+}
+.card__list li {
+  padding: 5px;
+  color: #5e5b5b;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.card__footer a {
+  text-align: center;
+  color: rgb(0, 170, 255);
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid #837f7f;
+  padding: 10px 80px;
+}
+
+.card__footer a:hover {
+  text-align: center;
+  background-color: rgb(0, 170, 255);
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 80px;
+  transition: all ease-in 0.3;
+}
